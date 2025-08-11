@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs><linearGradient id="m" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0F66FF"/><stop offset="1" stop-color="#11C5D9"/>
+  </linearGradient></defs>
+  <g fill="none">
+    <circle cx="250" cy="250" r="220" stroke="#E3E9F8" stroke-width="2"/>
+    <circle cx="250" cy="250" r="170" stroke="#E3E9F8" stroke-width="2"/>
+    <circle cx="250" cy="250" r="120" stroke="#E3E9F8" stroke-width="2"/>
+    <circle cx="250" cy="250" r="70"  stroke="#E3E9F8" stroke-width="2"/>
+    <g stroke="url(#m)" stroke-opacity=".4" stroke-width="2">
+      <path d="M60,240 C160,120 340,380 440,260"/>
+      <path d="M100,380 C200,260 300,240 400,120"/>
+      <path d="M80,120 C200,200 300,300 420,380"/>
+      <path d="M60,300 C180,260 320,240 440,200"/>
+      <path d="M120,60 C260,160 240,340 380,440"/>
+      <path d="M60,180 C220,140 280,360 440,320"/>
+    </g>
+    <circle cx="250" cy="20" r="12" fill="#fff" stroke="url(#m)" stroke-width="2"/>
+    <circle cx="250" cy="480" r="12" fill="#fff" stroke="url(#m)" stroke-width="2"/>
+    <circle cx="20" cy="250" r="12" fill="#fff" stroke="url(#m)" stroke-width="2"/>
+    <circle cx="480" cy="250" r="12" fill="#fff" stroke="url(#m)" stroke-width="2"/>
+  </g>
+</svg>
